@@ -28,31 +28,54 @@ header .container {
     text-decoration: none;
 }  
 
-  
-  #nav-list {
-    margin-top: 15px;
-  }
+#collapsable-nav {
+    background-color: #0c5957;
+}
 
-  #nav-list a {
+#nav-list {
+    margin-top: 15px;
+}
+
+#nav-list a {
     font-family: 'Lora', serif;
     font-size: 1.5em;
     text-transform: uppercase;
     color: #ffffff;
     text-align: center;
-  }
+}
 
-  #nav-list a:hover {
-    background: #ba3535;
-  }
+#nav-list a:hover {
+    background: #53a7a5;
+}
   
   
-  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
     border: 2px solid #ffffff;
-  }
+}
 
-  .navbar-header button:hover {
+.navbar-header button:hover {
     text-decoration: none;
-  }
+}
 
   /* END HEADER */
   
+h1 {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+}
+
+#main {
+    margin: 10px 10px 20px 10px;
+}
+#main div {
+    background-color: #53b3b0;
+    border-radius: 5px;
+    padding: 5px 30px 5px;
+
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
